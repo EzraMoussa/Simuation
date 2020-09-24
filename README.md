@@ -26,9 +26,11 @@ The program should output a report and trace file.
 
 ## Output:
 
+The program outputs both a trace file and report file
+
 Report file should be as follows for the sample job list:
 
-Report file: job_list.rpt
+# Report file: job_list.rpt
 
 
 20 Jobs:
@@ -56,11 +58,13 @@ Report file: job_list.rpt
 18 processors: totalWait=0, maxWait=0, averageWait=0.00
 19 processors: totalWait=0, maxWait=0, averageWait=0.00
 
-#Trace File
 
 
-Trace file: job_list.trc
+# Trace file: job_list.trc
+
+
 20 Jobs:
+
 (1, 5, *) (2, 6, *) (3, 4, *) (4, 10, *) (5, 3, *) (6, 5, *) (7, 9, *) (8, 2, *) (9, 6, *) (10, 11, *) (11, 2, *) (12, 3, *) (13, 7, *) (14, 6, *) (15, 5, *) (16, 4, *) (17, 9, *) (18, 3, *) (19, 2, *) (20, 1, *) 
 
 *****************************
