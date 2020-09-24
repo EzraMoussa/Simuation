@@ -9,12 +9,13 @@ determine these quantities for 𝑛 processors, where 𝑛 ranges from 1 to 𝑚
 Each job has an arrival time, duration, and finish time
 
   finish_time = start_time + duration
+  
   wait_time = finish_time – arrival_time – duration. 
   
 The file job_list first contains the number of jobs to be processed follwed by each job with its arrival time and duration(in order of arrrival). The finish time
 is yet to be calculated.
 
-After making an executable run by calling the desired job list
+### After making an executable run by calling the desired job list
 ```sh
 $ ./Simulation job_list
 ```
@@ -23,7 +24,7 @@ modify job_list as desired.
 
 The program should output a report and trace file.
 
-##Output:
+## Output:
 
 Report file should be as follows for the sample job list:
 
